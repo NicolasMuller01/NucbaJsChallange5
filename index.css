@@ -1,0 +1,53 @@
+body{
+    min-height: 100vh;
+    margin:0 auto;
+    padding-top: 200px;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column-reverse;
+}
+.pizza-contenedor{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.arbol{
+    border: 1px solid #dfe1e5;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 8.25em;
+    height: 8.25em;
+}
+
+.conteinder2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 7em;
+    height: 2em;
+}
+
+input{
+    width: 13em;
+    height: 2em;  
+}
